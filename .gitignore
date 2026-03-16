@@ -1,3 +1,5 @@
 kicad/#auto_saved_files#
 kicad/*.lck
 kicad/j-link-interface-backups/*
+kicad/production/**
+kicad/fp-info-cache
