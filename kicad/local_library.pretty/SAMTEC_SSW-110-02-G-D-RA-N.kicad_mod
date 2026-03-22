@@ -405,7 +405,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/local_library.3dshapes/SSW-110-02-G-D-RA-N.step"
 		(offset
-			(xyz -11.4 3.9 2.5)
+			(xyz -11.4 4.07 2.5)
 		)
 		(scale
 			(xyz 1 1 1)

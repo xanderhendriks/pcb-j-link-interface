@@ -51,8 +51,23 @@
           "min_clearance": 0.25
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|128905000|62610000|c431e14a-ea0d-4cda-9a06-8f5a1b4c1540|8bd47d92-6444-4ecd-9f42-81842408bd88",
+          "Connector placed on board edge."
+        ],
+        [
+          "silk_edge_clearance|128905000|88520000|c431e14a-ea0d-4cda-9a06-8f5a1b4c1540|a5d98571-8f1a-42a0-b14a-e3e2afad13e5",
+          "Connector placed on board edge."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -180,7 +195,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +225,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -451,27 +478,27 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "j-link-interface.kicad_pro",
+    "filename": "j_link_interface.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1524,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -490,7 +517,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "j_link_interface.step",
       "svg": "",
       "vrml": ""
     },

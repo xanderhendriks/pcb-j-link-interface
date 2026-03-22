@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "j-link-interface.kicad_prl",
+    "filename": "j_link_interface.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
