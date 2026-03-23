@@ -10567,7 +10567,7 @@
 		)
 		(uuid "0c5fdbbf-5fda-40b7-aa8c-f838841eecff")
 	)
-	(label "VCP_TX"
+	(label "VCP_RX"
 		(at 146.05 130.81 0)
 		(effects
 			(font
@@ -10577,7 +10577,7 @@
 		)
 		(uuid "1c217bc2-8141-4e40-9822-91154a5c6b42")
 	)
-	(label "FTD_RX"
+	(label "FTD_TX"
 		(at 129.54 86.36 0)
 		(effects
 			(font
@@ -10587,7 +10587,7 @@
 		)
 		(uuid "347cb642-c157-448c-9869-b8101fe747b5")
 	)
-	(label "FTD_TX"
+	(label "FTD_RX"
 		(at 96.52 111.76 0)
 		(effects
 			(font
@@ -10607,7 +10607,7 @@
 		)
 		(uuid "3bd9fa35-1d40-4b78-b4fa-ee20f72c401a")
 	)
-	(label "VCP_RX"
+	(label "VCP_TX"
 		(at 146.05 115.57 0)
 		(effects
 			(font
@@ -10637,7 +10637,7 @@
 		)
 		(uuid "78c747dc-98f0-4056-8ce8-7a3c12b6e605")
 	)
-	(label "FTD_TX"
+	(label "FTD_RX"
 		(at 129.54 88.9 0)
 		(effects
 			(font
@@ -10647,7 +10647,7 @@
 		)
 		(uuid "8afff251-6f6b-46f5-9c5b-08231c3bbf76")
 	)
-	(label "VCP_RX"
+	(label "VCP_TX"
 		(at 96.52 127 0)
 		(effects
 			(font
@@ -10657,7 +10657,7 @@
 		)
 		(uuid "ac987e94-98e9-4522-91cc-8aa118050e6c")
 	)
-	(label "VCP_TX"
+	(label "VCP_RX"
 		(at 129.54 127 0)
 		(effects
 			(font
@@ -10717,7 +10717,7 @@
 		)
 		(uuid "ee8eacb9-aefe-41b3-bd31-3c561866d49d")
 	)
-	(label "FTD_RX"
+	(label "FTD_TX"
 		(at 129.54 111.76 0)
 		(effects
 			(font
