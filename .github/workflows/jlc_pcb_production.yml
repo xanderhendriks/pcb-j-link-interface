@@ -1,0 +1,27 @@
+name: JLCPCB production files
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - name: Generate KiCad/JLCPCB outputs
+        uses: INTI-CMNB/KiBot@v2_k10
+        with:
+          config: config.kibot.yaml
+          dir: output
+          schema: your-project.kicad_sch
+          board: your-project.kicad_pcb
+
+      - name: Upload production files
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: jlcpcb-${{ github.ref_name }}
+          path: output

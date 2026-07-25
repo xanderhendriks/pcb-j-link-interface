@@ -1,0 +1,25 @@
+kibot:
+  version: 1
+
+preflight:
+  set_text_variables:
+    - name: REVISION
+      command: 'printf "%s" "$GITHUB_REF_NAME"'
+
+# your existing outputs here:
+outputs:
+  - name: gerbers
+    type: gerber
+    dir: gerbers
+
+  - name: drill
+    type: excellon
+    dir: drill
+
+  - name: bom_jlc
+    type: bom
+    dir: assembly
+
+  - name: position_jlc
+    type: position
+    dir: assembly
