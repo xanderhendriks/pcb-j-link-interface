@@ -1784,7 +1784,7 @@
 			(uuid "d33a77d3-b961-4d2d-bfbd-1d625ca561b4")
 		)
 		(embedded_fonts no)
-		(model "C:/nxs/git/pcb-j-link-interface/kicad/local_library.3dshapes/SFH11-PBPC-D10-RA-BK.step"
+		(model "${KIPRJMOD}/local_library.3dshapes/SFH11-PBPC-D10-RA-BK.step"
 			(offset
 				(xyz 22.85 -12.5 3)
 			)
